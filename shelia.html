@@ -1,0 +1,28 @@
+<head>
+    <body>
+        <script>
+         var kucing= {
+            nama : "kagura",
+            warna : "putih",
+            jumlah_kaki : 4,
+            mata : {
+                warna_mata : "putih",
+                warna_pupil : "biru",
+            },
+            dipanggil : function (){
+                return "cuek";
+            },
+
+             tidur : function (){
+                return  "tidur di kursi"
+             }
+             
+         }
+          // saya punya kucing
+          // dia namanya : robin
+          document.write("dia namanya : " + kucing.nama + "<br />");
+          document.write(`dia berwarna : ${kucing.warna} <br />`);
+          document.write("tidurnya " + kucing.tidur() + "<br />");
+        </script>
+    </body>
+</head>
